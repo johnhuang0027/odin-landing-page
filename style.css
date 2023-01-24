@@ -40,14 +40,15 @@ body{
     font-size: 48px;
     color: #F9FAF8;
     font-weight: bolder;
+    margin-bottom: 16px;
 }
 .hero-second{
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .header img{
     width: 50vh;
-    height: auto;
+    height: 300px;
 }
 
 button,
@@ -62,6 +63,30 @@ button,
     color:white;
     font-weight: 600;
 }
+
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    margin:32px;
+    text-align: center;
+}
+
+.quote-area{
+    background-color: #E5E7EB;
+    /* width: 100vh; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 64px 100vh;
+    margin-top: 64px;
+}
+.quote{
+    font-size: 36px;
+    text-align:left;
+    width: 800px;
+}
+
 .action-area button{
     padding: 4px 24px;
     border:2px;
@@ -78,7 +103,6 @@ button,
     padding: 12px 80vh 128px 80vh;
     width: 100vh;
     gap:80px;
-    margin-bottom: auto;
 }
 
 .top-header{
@@ -98,15 +122,68 @@ ul{
     display: flex;
     justify-content: space-between;
     flex:0 0 auto;
-}
-.container{
-    flex:1 0 0;
 
+}
+.header-container{
+    flex:1 0 0;
+    
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    /* flex:1; */
+}
+
+.img1,
+.img2,
+.img3,
+.img4{
+    width: auto;
+    height:auto;
+    margin: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex:1; */
+}
+.info-sub{
+    width:150px;
+    text-align: center;
+}
+
+.action-area{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    /* height: 80px; */
+    padding: 32px 64px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+.action-container{
+    margin-right: auto;
 }
 
 
 .footer{
+    color:white;
+    text-align: center;
     margin-top: auto;
     display: flex;
+    justify-content: center;
     align-items: flex-end;
+    width: 100vh;
+    height:200px;  
+    padding: 32px 100vh; 
 }
